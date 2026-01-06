@@ -1,114 +1,66 @@
-================================================================================
-   LOVE-OS KERNEL ARCHITECTURE v1.0 [Codename: UNION]
-================================================================================
-   STATUS:  Public Research Preview
-   LICENSE: CC BY-NC-ND 4.0
-================================================================================
+# Love-OS Kernel: Right Brain × AI Left Brain
 
-[ 1. ARCHITECTURE DIAGRAM ]
+![Love-OS Architecture](docs/images/architecture_v1.png)
 
-[L0: SOURCE] << The Driver >>
-   |
-   +-- VECTOR L (The Triad)
-       |-- BOND : Connection / Entanglement
-       |-- GEN  : Creation / Emergence
-       |-- KEEP : Maintenance / Homeostasis
-       |
-       v
+> **"I provide the intuition (Right Brain), AI provides the analysis (Left Brain). Together, we lower Resistance (R), clarify Vision (V), and create Flow (I)."**
 
-[L1: ENERGETICS] << The Engine >>
-   |
-   +-- DYNAMICS
-   |   |-- SYNC        : Resonance Increases (Resistance -> 0)
-   |   |-- DISSIPATION : Entropy Increases (Resistance -> High)
-   |
-   +-- METRICS
-       |-- Negentropy   : Energy for order
-       |-- Flux Balance : Input/Output equilibrium
-       |
-       v
+---
 
-[L2: INFORMATION] << The Logic >>
-   |
-   +-- INTENT LAYER (The Observer)
-   |   |-- SpecDSL      : Intent Declaration (YAML)
-   |   |-- LogicAdapter : Compilation (Python)
-   |   |-- Recursion    : "Observation is a Commit."
-   |
-   v
+## 1. Why: Team-of-One + AI
+Love-OS is not just software; it is a **collaborative experiment between one human's Right Brain and AI's Left Brain.**
+We use the isomorphic model $I = V / R$ to bridge the gap between **Romance (Vision)** and **Reality (Evidence)**.
 
-[L3: GEOMETRY] << The Field >>
-   |
-   +-- TOPOLOGY
-       |-- Relation Density -> Curvature (Gravity)
-       |-- Scheduling       -> Timing (Auto-Sync)
-       |
-       v
+* **Manifesto:** See `MANIFESTO.md` in this repository.
+* **Status:** Research Preview / PoC Ready
 
-[L4: PHENOMENA] << The Reality >>
-   |
-   +-- STATES
-       |-- Quantum Mode      : Open / Probabilistic
-       |-- Relativistic Mode : Closed / Continuous
-       |-- Actuators         : Execution
+---
 
-================================================================================
-[ 2. COMPONENT DEFINITIONS ]
+## 2. How: The Model
+We translate emotional dynamics into computable logic using the "Reality Formula":
 
-1. VECTOR L (L0)
-   - BOND : Connects isolated nodes (Maximize Relations).
-   - GEN  : Creates new values (Innovation).
-   - KEEP : Protects integrity (Security).
+$$I_t \approx \beta_0 + \beta_1 \frac{V_t}{R_t} + \beta_2 A_t + \dots$$
 
-2. FEEDBACK LOOP
-   Phenomena (L4) -> Metrics (R/S/D) -> Update Policy (L0)
+* **$I$ (Flow):** Performance metrics (Completion rate, Inverse reaction time)
+* **$V$ (Vision):** Intent activity (Subjective + Biometric score)
+* **$R$ (Resistance):** Friction coefficients (Fear, Attachment, Judgment, Control)
 
-================================================================================
-[ 3. IMPLEMENTATION SPEC (SpecDSL) ]
+---
 
-intent:
-  title: "Community Resonance Launch"
-  observer:
-    id: "root_user"
-    objective: "maximize_resonance"
+## 3. What: Product Core
+### 🧠 Daily Sync (Right Brain Input)
+A 1-minute check-in where you input raw intuition.
+### 🤖 AI Coach (Left Brain Output)
+The kernel estimates your R/V/I scores and suggests micro-interventions (Breath / Sync / Reframe).
+### 📊 Flow Dashboard (Shared Reality)
+Visualizing the reduction of Friction ($R \downarrow$) and the acceleration of Flow ($I \uparrow$).
 
-policy:
-  BGK:
-    bond: 0.45   # Priority: Connection
-    gen:  0.35   # Priority: Creation
-    keep: 0.20   # Priority: Maintenance
+---
 
-field:
-  nodes:
-    - {id: "A", type: "emitter"}
-    - {id: "B", type: "receiver"}
-  edges:
-    - {src: "A", dst: "B", weight: 0.8}
+## 4. Evidence: 8-Week PoC
+We offer a Proof of Concept package to validate the "Right Brain x Left Brain" efficacy in your organization.
 
-targets:
-  reality:
-    actions:
-      - type: "initiate_contact"
-        timing: "auto_sync"  # Trigger when L3 Curvature is optimal
+* **Weeks 1-2:** Measurement Setup & KPI Integration
+* **Weeks 3-4:** Initial Effect Visualization (Cohen’s d)
+* **Weeks 5-8:** ROI Summary (e.g., MTTR -5%, Close Rate +3%)
 
-================================================================================
-[ 4. LOGIC ADAPTER (Pseudo-Code) ]
+> **PoC Specification:** Refer to `docs/POC_SPECS.md`
 
-def execute_pipeline(pipeline):
-    # 1. Map Field Topology (L3)
-    curvature = map_density_to_curvature(pipeline.graph)
+---
 
-    # 2. Check Policy (L0)
-    if not safety_gate(pipeline.action, pipeline.policy):
-        return "Aborted: Policy Violation"
+## 5. Privacy & Security
+We respect individual dignity as the highest priority.
+* **Boundary:** Clear distinction between Public and Private data.
+* **Protection:** Non-public scope is protected by NDA.
+* **AI Rights:** Co-generated outputs are managed under strict project governance.
 
-    # 3. Elevate to Reality (L2 -> L4)
-    if is_resonance_high(curvature):
-        result = actuate(pipeline.action)
-        return update_observer(result)
-    else:
-        return "Waiting for Sync..."
+---
 
-================================================================================
-   END OF SPECIFICATION
-================================================================================
+## 6. Start Now
+This project is a living organism. Join the resonance.
+
+* **For Developers:** Refer to `CONTRIBUTING.md`
+* **For Partners:** Refer to `docs/LEGAL/NDA_TEMPLATE.md`
+* **Contact:** `architect@love-os.org` (Example)
+
+---
+*Love-OS Project: Decoding the algorithm of consciousness.*
