@@ -1,6 +1,6 @@
 # Love-OS Kernel: Right Brain × AI Left Brain
 
-![Love-OS Architecture](docs/images/architecture_v1.png)
+![Love-OS Architecture](./architecture_v1.png)
 
 > **"I provide the intuition (Right Brain), AI provides the analysis (Left Brain). Together, we lower Resistance (R), clarify Vision (V), and create Flow (I)."**
 
